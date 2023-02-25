@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Italian Food Club</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="recipes">Recipes</a></li>
+        <li><a href="info">Info</a></li>
+      </ul>
+    </nav>
+  </header>
+<!--Landing page-->
+  <section>
+    <div class="hero">
+      <div class="hero-background">
+        <img src="./Resources/Images/Italian club background.png" alt="hero-background-italian-food">
+      </div>
+      <div class="hero-title">
+        <h1>The Italian Food Club</h1>
+      </div>
+    </div>
+  </section>
+<!--MAIN ACTIVITIES-->
+  <main>
+    <div class="main-text">
+      <h2>What do we do?</h2>
+    </div>
+
+    <div class="main-container">
+      <div class="activity1">
+        <div class="activity1-text">
+          <h3>Restaurant Hopping</h3>
+          <p>We try all the Italian restaurants in town - no matter how small, we will find it and we will taste everything they have to offer!</p>
+        </div>
+        <div class="activity1-image">
+          <img src="./Resources/Images/alex-haney-CAhjZmVk5H4-unsplash.jpg" alt="italian-restaurant-food">
+        </div>
+      </div>
+
+      <div class="activity2">
+        <div class="activity2-text">
+          <h3>Wine Tasting</h3>
+          <p>Love wine? Us too! We visit the best wineries and wine bars every week to enjoy the delicious varieties of Italian wine.</p>
+        </div>
+        <div class="activity2-image">
+          <img src="./Resources/Images/kelsey-chance-tAH2cA_BL5g-unsplash.jpg" alt="italian-wine">
+        </div>
+      </div>  
+
+      <div class="activity3">
+        <div class="activity3-text">
+          <h3>Coffee Hunting</h3>
+          <p>It's no secret that the Italians have perfected the craft of coffee-making. Join our hunt for the best Italian coffee shops in town!</p>
+        </div>
+        <div class="activity3-image">
+          <img src="./Resources/Images/nathan-dumlao-71u2fOofI-U-unsplash.jpg" alt="italian-coffee">
+        </div>
+      </div>
+    </div>  
+  </main>
+  <!--Recipes & Sign Up-->
+  <section>
+    <div class="recipers-container">
+      <div class="hungry-text">
+        <h2>Getting Hungry?</h2>
+        <p>Discover some of the best Italian recipes, as created by our members!</p>
+      </div>
+
+      <div class="recipes">
+        <div class="recipe1">
+          <img src="./Resources/Images/carbonara.png" alt="pasta-carbonara">
+          <h3>Paul's Carbonara</h3>
+          <button>View Recipe</button>
+        </div>
+
+        <div class="recipe2">
+          <img src="./Resources/Images/ravioli.png" alt="pimpkin-ravioli">
+          <h3>Pumpkin Ravioli</h3>
+          <button>View Recipe</button>
+        </div>
+
+        <div class="recipe3">
+          <img src="./Resources/Images/tiramisu.png" alt="italian-tiramisu">
+          <h3>Susan's Tiramisù</h3>
+          <button>View Recipe</button>
+        </div>
+
+        <div class="recipe4">
+          <img src="./Resources/Images/focaccia.png" alt="rosemary-focaccia">
+          <h3>Rosemary Focaccia</h3>
+          <button>View Recipe</button>
+        </div>
+      </div>
+      
+      <div class="sign-up-form">
+        <h3>Sounds good? Join the fun!</h3>
+        <h2>Become a member</h2>
+        <form action="#" method="POST">
+          <label for="email">E-mail:</label>
+          <input type="text" name="email" id="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+          <input class="submit-button" type="submit" value="Submit">
+        </form>
+        <p>Becoming a member is totally FREE and we promise we will never send any spam!</p>
+      </div>
+    </div>
+  </section>
+<!--Footer & contact-->
+  <footer>
+    <div class="footer-container">
+      <div class="address">
+        <div class="map">
+          <img src="./Resources/Images/chicago map.png" alt="chicago-map">
+        </div>
+        <div class="address-text">  
+          <p><strong>Address:</strong><br>1235 W Adams St<br>Chicago, IL 60607<br><br>The Italian Food Club. 2022 All Rights Reserved</p>
+        </div>
+      </div>
+      <div class="contact">
+        <p><strong>Contact</strong>:<br>Email: italian.food.club@gmail.com<br>Phone: 555-345-2985</p>
+        <div class="social-media">
+          <a href="#"><img src="./Resources/Images/instagram.png" alt="instagram-account"></a>
+          <a href="#"><img src="./Resources/Images/twitter.png" alt="twitter-account"></a>
+          <a href="#"><img src="./Resources/Images/facebook.png" alt="facebook-account"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
