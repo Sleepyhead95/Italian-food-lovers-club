@@ -3,6 +3,8 @@
 This is another project that's a part of my Front-End Engineer course on Codecademy, focused on improved and responsive styling with CSS. I was tasked with creating a fully responsive home page for a club of my choice - since I live in Italy and love food, I thought I would make a page for Italian food lovers. I wanted it to look sophisticated and extremely user-friendly, so I used a simple layout design, bold colours, and high-quality images. I also used media queries to ensure the website is responsive on tablet and mobile.
 Created with HTML and CSS only. 
 
+https://sleepyhead95.github.io/Italian-food-lovers-club/
+
 
 ## Skills Learned:
 - Flexbox
