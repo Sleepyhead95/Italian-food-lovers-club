@@ -29,5 +29,3 @@ Please make sure to update tests as appropriate.
 ## Preview
 <img width="1779" alt="Screenshot 2023-02-25 at 15 28 02" src="https://user-images.githubusercontent.com/124877345/221362333-6dbe8595-4bad-45c5-8207-204c12b7d919.png">
 <img width="1773" alt="Screenshot 2023-02-25 at 15 28 34" src="https://user-images.githubusercontent.com/124877345/221362347-99335073-3691-40d2-95ea-1c7487fdd654.png">
-
-I hope you like it!
